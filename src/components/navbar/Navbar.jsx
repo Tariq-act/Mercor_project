@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReactComponent as SearchIcon } from '../../assets/search-icon.svg'
+import { ReactComponent as SearchIcon } from '../../assets/nav/search-icon.svg'
 import { ReactComponent as CalenderIcon } from '../../assets/nav/calendar-2.svg'
 import { ReactComponent as MessageNotify } from '../../assets/nav/message-question.svg'
 import { ReactComponent as Notification } from '../../assets/nav/notification.svg'

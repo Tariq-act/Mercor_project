@@ -1,0 +1,78 @@
+.task_card {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.task_card .card_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task_card .card_head label {
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 4px 6px;
+}
+
+.low_task {
+  color: #d58d49;
+  background: rgba(223, 168, 116, 0.2);
+}
+.high_task {
+  color: #d8727d;
+  background: rgba(216, 114, 125, 0.1);
+}
+.completed_task {
+  color: #68b266;
+  background: rgba(131, 194, 157, 0.2);
+}
+
+.task_card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0.5rem auto;
+}
+
+.task_card p {
+  color: #787486;
+  font-size: 12px;
+}
+
+.task_social_info {
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task_social_info .profile_view {
+  width: 63px;
+  height: 24px;
+}
+
+.task_social_info .profile_view img {
+  width: 100%;
+  height: 100%;
+}
+
+.comments_file {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(120, 116, 134, 1);
+  font-size: 12px;
+  font-weight: 500;
+}
+.comments_file div {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.comments_file .task_icon {
+  width: 16px;
+  height: 16px;
+}
